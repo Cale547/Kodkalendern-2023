@@ -1,5 +1,5 @@
 public class lucka1 {
-        public static void main(String[]) {
+        public static void main(String[] args) {
             int nr = 0;
             
             for (int i = 127; i <= 267; i++) {
