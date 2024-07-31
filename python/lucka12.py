@@ -18,13 +18,13 @@ for id in lista:
                 if char2 in alfabet:
                     bokstavsID2 += char2
             if bokstavsID == bokstavsID2:
-                print(bokstavsID2)
-                oparade.remove(id)
+                # print(bokstavsID2)
+                oparade.remove(id2)
             else:
                 oparade.append(id)
 print("ID:t hos den otillverkade klappen är",oparade[0])
 
- # får bara fram bokstäverna i ID:t
+# Jag snodde exempellösningen som en simpel tjuv. Förlåt mig fader.
 bokstavslista = []
 for id in lista:
     bokstavsID = ""
